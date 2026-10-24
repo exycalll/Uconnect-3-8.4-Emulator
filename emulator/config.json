@@ -1,0 +1,89 @@
+{
+ "theme": "SRT/157_SRT.swf",
+ "brandId": 2,
+ "destinationCode": 2,
+ "languageId": 3,
+ "lastScreen": "sathomescreen",
+ "navActivated": true,
+ "splash": "SRT.png",
+ "driveMode": {
+  "tables": {
+   "default": {
+    "transmissionDriveMode": "street",
+    "HPDriveModeCfg": "black",
+    "EPSDriveMode": "street",
+    "ESCDriveMode": "street",
+    "activeDampingDriveMode": "street",
+    "paddlesDriveMode": "paddles_disabled",
+    "terrainDriveMode": "auto",
+    "engineDriveModeCfg": "street"
+   },
+   "sport": {
+    "transmissionDriveMode": "sport",
+    "HPDriveModeCfg": "red",
+    "EPSDriveMode": "sport",
+    "ESCDriveMode": "sport",
+    "activeDampingDriveMode": "sport",
+    "paddlesDriveMode": "paddles_enabled",
+    "terrainDriveMode": "sport",
+    "engineDriveModeCfg": "sport"
+   },
+   "track": {
+    "transmissionDriveMode": "track",
+    "HPDriveModeCfg": "red",
+    "EPSDriveMode": "track",
+    "ESCDriveMode": "track",
+    "activeDampingDriveMode": "track",
+    "paddlesDriveMode": "paddles_enabled",
+    "terrainDriveMode": "track",
+    "engineDriveModeCfg": "sport"
+   },
+   "snow": {
+    "transmissionDriveMode": "snow",
+    "HPDriveModeCfg": "black",
+    "EPSDriveMode": "street",
+    "ESCDriveMode": "snow",
+    "activeDampingDriveMode": "street",
+    "paddlesDriveMode": "paddles_disabled",
+    "terrainDriveMode": "snow",
+    "engineDriveModeCfg": "street"
+   },
+   "tow": {
+    "transmissionDriveMode": "tow",
+    "HPDriveModeCfg": "black",
+    "EPSDriveMode": "street",
+    "ESCDriveMode": "street",
+    "activeDampingDriveMode": "street",
+    "paddlesDriveMode": "paddles_disabled",
+    "terrainDriveMode": "tow",
+    "engineDriveModeCfg": "street"
+   },
+   "custom": {
+    "transmissionDriveMode": "street",
+    "HPDriveModeCfg": "red",
+    "EPSDriveMode": "street",
+    "ESCDriveMode": "street",
+    "activeDampingDriveMode": "street",
+    "paddlesDriveMode": "paddles_disabled",
+    "terrainDriveMode": "sport",
+    "engineDriveModeCfg": "sport"
+   }
+  },
+  "launchRPM": "1750",
+  "shift": "enabled",
+  "gearRPM": {
+   "gear1RPMSetPoint": "6000",
+   "gear2RPMSetPoint": "6000",
+   "gear3RPMSetPoint": "6000",
+   "gear4RPMSetPoint": "6000",
+   "gear5RPMSetPoint": "6000"
+  }
+ },
+ "vehicle": {
+  "model": "challenger_hellcat",
+  "trans": "Automatic",
+  "perfPages": true,
+  "driveModes": true
+ },
+ "splashFlags": 1
+}

@@ -1,0 +1,109 @@
+{
+ "AppPersistenceManager": {
+  "AppsExist": "false"
+ },
+ "Persistency": {
+  "DisclaimerAccepted": {
+   "value": "true"
+  },
+  "SplitScreen": {
+   "value": "none"
+  }
+ },
+ "BluetoothGAPPersistency": {},
+ "WiFiPersistency": {},
+ "XMPersistency": {},
+ "NavigationPersistency": {
+  "Nav_LI": {
+   "verify_key": "LI",
+   "": ""
+  },
+  "Nav_POI": {
+   "verify_key": "POI",
+   "": ""
+  },
+  "Nav_POI_SearchArea": {
+   "verify_key": "POI_SearchArea",
+   "": ""
+  },
+  "Nav_ActGuidance": {
+   "verify_key": "ActGuidance",
+   "": ""
+  },
+  "Nav_Trips_00": {
+   "verify_key": "Trips_00",
+   "": ""
+  },
+  "Nav_Trips_01": {
+   "verify_key": "Trips_01",
+   "": ""
+  },
+  "Nav_Trips_02": {
+   "verify_key": "Trips_02",
+   "": ""
+  },
+  "Nav_Trips_03": {
+   "verify_key": "Trips_03",
+   "": ""
+  },
+  "Nav_Trips_04": {
+   "verify_key": "Trips_04",
+   "": ""
+  },
+  "Nav_Trips_05": {
+   "verify_key": "Trips_05",
+   "": ""
+  },
+  "Nav_Trips_06": {
+   "verify_key": "Trips_06",
+   "": ""
+  },
+  "Nav_Trips_07": {
+   "verify_key": "Trips_07",
+   "": ""
+  },
+  "Nav_Trips_08": {
+   "verify_key": "Trips_08",
+   "": ""
+  },
+  "Nav_Trips_09": {
+   "verify_key": "Trips_09",
+   "": ""
+  },
+  "Nav_Trips_10": {
+   "verify_key": "Trips_10",
+   "": ""
+  },
+  "Nav_Trips_11": {
+   "verify_key": "Trips_11",
+   "": ""
+  },
+  "Nav_HomeAddress": {
+   "verify_key": "HomeAddress",
+   "": ""
+  },
+  "Nav_DB_Ver": {
+   "verify_key": "DB_Ver",
+   "DB": "NA_HERE;NAFTA 2015 Q1;",
+   "NavServ": "NNG 9.12.3"
+  },
+  "Nav_GlobSet": {
+   "verify_key": "GlobSet",
+   "Speed": "901",
+   "Geo": "1",
+   "Dist": "901",
+   "Unit": "902"
+  },
+  "Nav_Nav_C": {
+   "verify_key": "Nav_C",
+   "IC_E": "true",
+   "SLW_E": "false",
+   "SLW_S": "0",
+   "TMC_DT": "5",
+   "DM": "false",
+   "TMC_RM": "2",
+   "ADA": "true",
+   "SCM": "0"
+  }
+ }
+}
