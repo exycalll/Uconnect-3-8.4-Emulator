@@ -5,28 +5,35 @@
  "languageId": 3,
  "lastScreen": "sathomescreen",
  "navActivated": true,
- "splash": "SRT.png",
+ "vehicle": {
+  "model": "charger_hellcat",
+  "trans": "Automatic",
+  "perfPages": true,
+  "driveModes": true
+ },
+ "splashFlags": 1,
+ "splash": "SRT-siriusxm.png",
  "driveMode": {
   "tables": {
    "default": {
     "transmissionDriveMode": "street",
-    "HPDriveModeCfg": "black",
+    "HPDriveModeCfg": "red",
     "EPSDriveMode": "street",
     "ESCDriveMode": "street",
     "activeDampingDriveMode": "street",
-    "paddlesDriveMode": "paddles_disabled",
+    "paddlesDriveMode": "paddles_enabled",
     "terrainDriveMode": "auto",
     "engineDriveModeCfg": "street"
    },
    "sport": {
     "transmissionDriveMode": "sport",
-    "HPDriveModeCfg": "red",
-    "EPSDriveMode": "sport",
-    "ESCDriveMode": "sport",
+    "HPDriveModeCfg": "black",
+    "EPSDriveMode": "track",
+    "ESCDriveMode": "street",
     "activeDampingDriveMode": "sport",
     "paddlesDriveMode": "paddles_enabled",
     "terrainDriveMode": "sport",
-    "engineDriveModeCfg": "sport"
+    "engineDriveModeCfg": "street"
    },
    "track": {
     "transmissionDriveMode": "track",
@@ -59,17 +66,17 @@
     "engineDriveModeCfg": "street"
    },
    "custom": {
-    "transmissionDriveMode": "street",
-    "HPDriveModeCfg": "red",
+    "transmissionDriveMode": "sport",
+    "HPDriveModeCfg": "black",
     "EPSDriveMode": "street",
-    "ESCDriveMode": "street",
+    "ESCDriveMode": "sport",
     "activeDampingDriveMode": "street",
     "paddlesDriveMode": "paddles_disabled",
     "terrainDriveMode": "sport",
     "engineDriveModeCfg": "sport"
    }
   },
-  "launchRPM": "1750",
+  "launchRPM": "3250",
   "shift": "enabled",
   "gearRPM": {
    "gear1RPMSetPoint": "6000",
@@ -78,12 +85,5 @@
    "gear4RPMSetPoint": "6000",
    "gear5RPMSetPoint": "6000"
   }
- },
- "vehicle": {
-  "model": "challenger_hellcat",
-  "trans": "Automatic",
-  "perfPages": true,
-  "driveModes": true
- },
- "splashFlags": 1
+ }
 }

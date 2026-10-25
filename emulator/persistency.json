@@ -8,6 +8,63 @@
   },
   "SplitScreen": {
    "value": "none"
+  },
+  "TskBar": {
+   "driverA": {
+    "slot4": {
+     "label": "Climate",
+     "id": "Climate"
+    },
+    "slot1": {
+     "label": "Radio",
+     "id": "Radio"
+    },
+    "slot6": {
+     "label": "Phone",
+     "id": "Phone"
+    },
+    "slot3": {
+     "label": "Controls",
+     "id": "Controls"
+    },
+    "slot2": {
+     "label": "Media",
+     "id": "Media"
+    },
+    "slot5": {
+     "label": "Nav",
+     "id": "Navigation"
+    }
+   },
+   "driverB": {
+    "slot4": {
+     "label": "Climate",
+     "id": "Climate"
+    },
+    "slot1": {
+     "label": "Radio",
+     "id": "Radio"
+    },
+    "slot6": {
+     "label": "Drv Mode",
+     "id": "DriveModes"
+    },
+    "slot3": {
+     "label": "Controls",
+     "id": "Controls"
+    },
+    "slot2": {
+     "label": "Media",
+     "id": "Media"
+    },
+    "slot5": {
+     "label": "en_US:Perform",
+     "id": "7DEC7834-535D-47B5-BD33-695477EDCD57"
+    }
+   }
+  },
+  "ValetPin": {
+   "pin": "8888"
   }
  },
  "BluetoothGAPPersistency": {},
@@ -24,7 +81,9 @@
   },
   "Nav_POI_SearchArea": {
    "verify_key": "POI_SearchArea",
-   "": ""
+   "area": "1",
+   "city_pri": "<CUSTOM_NAME><*>",
+   "city_sec": "<CUSTOM_NAME><*>"
   },
   "Nav_ActGuidance": {
    "verify_key": "ActGuidance",
@@ -84,26 +143,26 @@
   },
   "Nav_DB_Ver": {
    "verify_key": "DB_Ver",
-   "DB": "NA_HERE;NAFTA 2015 Q1;",
-   "NavServ": "NNG 9.12.3"
+   "NavServ": "NNG 9.12.3",
+   "DB": "NA_HERE;NAFTA 2015 Q1;"
   },
   "Nav_GlobSet": {
    "verify_key": "GlobSet",
-   "Speed": "901",
-   "Geo": "1",
-   "Dist": "901",
-   "Unit": "902"
+   "Speed": "902",
+   "Dist": "902",
+   "Unit": "902",
+   "Geo": "1"
   },
   "Nav_Nav_C": {
    "verify_key": "Nav_C",
-   "IC_E": "true",
-   "SLW_E": "false",
-   "SLW_S": "0",
-   "TMC_DT": "5",
    "DM": "false",
-   "TMC_RM": "2",
+   "SLW_E": "false",
    "ADA": "true",
-   "SCM": "0"
+   "TMC_RM": "2",
+   "SCM": "0",
+   "TMC_DT": "5",
+   "SLW_S": "0",
+   "IC_E": "true"
   }
  }
 }
