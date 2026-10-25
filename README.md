@@ -7,12 +7,11 @@ running on a Windows PC, straight out of the official USB update files. No head 
 
 ## What works
 
-Runs at **1024x768** (the 640x480 HMI scaled 1.6x). Every screen below was tapped through in a scripted
-regression tour with **zero script errors** in the HMI log:
+Runs at **1024x768** (the 640x480 HMI scaled 1.6x).
 
 | | |
 |---|---|
-| ![](docs/screenshots/radio.png) **Radio** — AM/FM, station names, presets (store/recall), seek, direct tune | ![](docs/screenshots/siriusxm.png) **SiriusXM** — channels, categories, artist/song, presets, Traffic & Weather |
+| ![](docs/screenshots/radio.png) **Radio** — AM/FM, station names, presets, seek, direct tune | ![](docs/screenshots/siriusxm.png) **SiriusXM** — channels, cats., artist/song, presets, T/W |
 | ![](docs/screenshots/media.png) **Media** — **plays your real music folder** with tags, progress, seek, skip, repeat | ![](docs/screenshots/media-browse.png) **Media browse** — folders, artists, albums, genres, songs |
 | ![](docs/screenshots/phone.png) **Phone** — paired "Pixel 8", favorites, incoming calls ringing with the car's own ringtone | ![](docs/screenshots/phonebook.png) **Phonebook** — 22 contacts, favorites |
 | ![](docs/screenshots/climate.png) **Climate** — temp (LO/60-90/HI), fan 0-7, A/C, MAX A/C, recirc, AUTO, defrost, modes | ![](docs/screenshots/controls.png) **Controls** — heated/vented seats, heated wheel |
@@ -27,7 +26,7 @@ regression tour with **zero script errors** in the HMI log:
 | ![](docs/screenshots/perf-viper.png) **Viper** — its own SRT Performance Pages app (with Options) | |
 
 Also:
-- **Boot splash** — the car's own brand splash images, chosen exactly like the firmware's `splash.lua` (brand + SRT/SiriusXM/Beats flags).
+- **Boot splash** — the car's own brand splash images, chosen exactly like the real vp4 `splash.lua` (brand + SRT/SiriusXM/Beats flags).
 - **Themes** — all brand themes (Dodge, Jeep, Chrysler, Ram, SRT, Viper, Fiat, Maserati…); switch from the panel or live in the head unit's own Settings.
 - **Sound** — Media plays real files through Windows (play/pause/skip/seek, volume knob, mute); incoming calls ring.
 - **Hardware panel** in the browser — volume & tune knobs, faceplate keys, climate knobs, gear shift, theme & splash pickers, restart, raw message injector.
