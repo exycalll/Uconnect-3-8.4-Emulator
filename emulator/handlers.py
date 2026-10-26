@@ -970,3 +970,72 @@ def ticker():
             last_min = t.tm_min
             B.send("Clock", {"time": now_payload()})
         time.sleep(1)
+
+@on("XMFavorites", "Command")
+def handle_xm_favorites_command(dest, args, conn):
+    print(f"[XMFavorites DEBUG] Received command args: {args}")
+    
+    # Check if the packet contains setFavoriteArtist
+    if isinstance(args, dict) and "setFavoriteArtist" in args:
+        payload = args["setFavoriteArtist"]
+        channel_id = payload.get("newFavorite") if isinstance(payload, dict) else payload
+        
+        # Pull current artist info from XMApp state
+        current_station = B.get_state("XMApp", "currentStationInfo", {})
+        artist_name = current_station.get("artist")
+        
+        if artist_name:
+            if "XMFavorites" not in B.PERSIST:
+                B.PERSIST["XMFavorites"] = {"allFavorites": []}
+            
+            favorites = B.PERSIST["XMFavorites"]["allFavorites"]
+            
+            # Avoid duplicate entries
+            if not any(f.get("artist") == artist_name for f in favorites):
+                favorites.append({
+                    "id": len(favorites) + 1,
+                    "favoriteType": "artist",
+                    "artist": artist_name,
+                    "song": ""
+                })
+                
+                # Save immediately to persistency.json
+                try:
+                    with open(B.PERSIST_FILE, "w", encoding="utf-8") as f:
+                        json.dump(B.PERSIST, f, indent=1)
+                    print(f"[Persistence] Saved favorite artist: {artist_name}")
+                except Exception as e:
+                    print(f"[Persistence Error] {e}")
+
+            # Send back response to update the UI
+            B.send("XMFavorites", {"allFavorites": favorites}, conn)
+            if channel_id:
+                B.send("XMFavorites", {
+                    "activeFavorites": [{
+                        "channel": channel_id,
+                        "artist": artist_name,
+                        "song": "",
+                        "isActiveArtist": True,
+                        "isActiveSong": False
+                    }]
+                }, conn)
+        return
+
+    # Handle startup property requests to reload saved favorites
+    if isinstance(args, dict) and "getProperties" in args:
+        saved_favorites = B.PERSIST.get("XMFavorites", {}).get("allFavorites", [])
+        B.send("XMFavorites", {
+            "getProperties": {
+                "allFavorites": saved_favorites,
+                "favAllowed": {"isArtistAllowed": True, "isSongAllowed": True},
+                "activeFavorites": []
+            }
+        }, conn)
+@on("XMFavorites", "Subscribe")
+def intercept_xm_favorites_subscribe(dest, args, conn):
+    # Load saved favorites from disk
+    saved_favorites = B.PERSIST.get("XMFavorites", {}).get("allFavorites", [])
+    if saved_favorites:
+        # Force-feed them back immediately upon subscription to prevent empty defaults
+        B.send("XMFavorites", {"allFavorites": saved_favorites}, conn)
+        print(f"[Persistence] Restored {len(saved_favorites)} favorite(s) on subscription.")
