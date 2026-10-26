@@ -34,23 +34,20 @@ Also:
 
 ### New in this update
 
-- **SRT Drive Modes** — the head unit's own Drive Modes screens (Default/Sport/Track/Custom, Custom Set-Up, Launch
-  Control, Shift Light, Valet with PIN, Eco), answered by a fake drive-mode controller (`modules/drivemode.py`).
-  Hellcat red/black key with 500 / 700+ hp. Jeep Grand Cherokee SRT with its own screens and the Selec-Track dial
-  (Auto/Sport/Track/Snow/Tow) on the panel.
-- **Performance Control** — non-SRT R/T and Scat Pack cars get the stock "Dodge/Chrysler Performance Control" app
-  (Launch Control, Default/Sport Set-Up).
+- **SRT Drive Modes** — working drivemodes and shi, using (`modules/drivemode.py`).
+  Hellcat red/black key with 500 / 700+ hp. WK2 SRT with its own screens and the Selec-Track dial.
+- **Performance Control** — non-SRT R/T and Scat Pack cars get the stock "Dodge/Chrysler Performance Control" app.
 - **Performance Pages** — the Java apps can't run off the car, so they are redrawn from their own artwork, fonts and
-  layout (Home, Timers, Gauges 1/2, G-Force, Engine) inside the head-unit window, over the HMI's own app screen.
-  All three stock versions: Challenger/Charger/300 (R/T, SRT, Hellcat), Grand Cherokee SRT, and the Viper's with its
-  Options page (home picture, paint colour). A simulated car (launch, cruise, brake, steer) drives them from the panel.
-- **Vehicle picker** — 19 cars (Challenger, Charger, 300, Grand Cherokee, Viper, R/T, Scat Pack, non-SRT brands).
+  layout all inside the head-unit window, drawn over the HMI's own app screen.
+  All three stock versions: WK/LA/LX/LD/ZF/ect... R/T,Scat,300(c),hellcat, WK2 SRT, and ZF (viper) with its
+  Options page. A simulated car (launch, cruise, brake, steer) drives them from the panel.
+- **Vehicle picker** — 19 cars (LD,LA,LX,WK2,WD,ZF,ect...).
   Each sets the car's configuration, theme and boot splash; Settings › Theme lists that car's themes like the car.
 - **SiriusXM channel logos** — the firmware's own channel art (`emulator/sdars/channelart`) on the SiriusXM screen.
 - **Languages** — Settings › Display › Language now lists the market's languages (North America, Europe, Rest of
   World, Japan, Korea, China…) and switches the whole UI live; market and language are also on the panel.
 - **Phone names** — rename the connected phone and the head unit's Bluetooth name from the panel.
-- **Real Bluetooth audio** — pair a real phone from Phone › Add Device and play its music through the PC
+- **Real Bluetooth audio** — pair a real phone from Phone › Add Device
   (Media › Bluetooth, see *Run it*). Calls and contacts stay simulated.
 - **Climate fixes** — climate turns back on, passenger temperature, sync, metric/US ranges.
 
@@ -62,22 +59,13 @@ Java apps only Performance Pages is redrawn. Real calls over Bluetooth need a ha
 
 ## Next update
 
-- **Radio & SiriusXM sound** — map FM/AM/SXM presets to internet streams.
+- **Map SXM to an api** — mapping SXM data (no audio obv).
 - **Bluetooth song info** — read title/artist straight from the phone (AVRCP); Windows doesn't pass it on.
-- **Shuffle**, album art from embedded cover images.
-- **Splash animations** — decode the `splash_movies/*.bin` boot animations.
+- **Album Arts**, SXM,BT,USB,ect...
+- **Real splash animations** — decode the `splash_movies/*.bin` animations.
 - **Voice prompts** — play the stock VR beeps/prompts (`start.wav`, `recog_*.wav`).
-- **CAN** — label which signal table belongs to which vehicle architecture; decode the transmit side in the V850 IOC firmware.
-- **Uconnect 4C / 8.4 MY18+ (VP4R)** — needs the AES key or a decrypted dump from a unit (see below).
 
 ## Run it
-
-**Easy way:** download `UconnectEmulatorSetup.exe` from the [latest release]
-and run it. It installs Python (if needed), the emulator, Adobe's AIR runtime and the Python packages into
-`%LOCALAPPDATA%\UconnectEmulator` (no admin rights) and adds a **Uconnect 8.4AN** shortcut to the Desktop and Start menu.
-Windows SmartScreen may warn because the file isn't signed: *More info › Run anyway*. Source: `installer/`.
-
-**Manual way:**
 
 Needs Windows, Python 3, and the free Adobe AIR 32 SDK (the runtime the car's HMI is built on).
 
