@@ -12,7 +12,7 @@ Runs at **1024x768** (the 640x480 HMI scaled 1.6x).
 | | |
 |---|---|
 | ![](docs/screenshots/am.gif) ![](docs/screenshots/fm.gif) **Radio** — AM/FM, station names, presets, seek, direct tune | ![](docs/screenshots/sxm.gif) **SiriusXM** — channels, cats., artist/song, presets, T/W |
-| ![](docs/screenshots/media.gif) **Media** — **plays your real music folder** with tags, progress, seek, skip, repeat |
+| ![](docs/screenshots/media.gif) **Media** — **plays your real music folder** with tags, progress, seek, skip, repeat
 | ![](docs/screenshots/phone.png) **Phone** — paired "Pixel 8", favorites, incoming calls ringing with the car's own ringtone | ![](docs/screenshots/phonebook.png) **Phonebook** — 22 contacts, favorites |
 | ![](docs/screenshots/climate.png) **Climate** — temp (LO/60-90/HI), fan 0-7, A/C, MAX A/C, recirc, AUTO, defrost, modes | ![](docs/screenshots/controls.png) **Controls** — heated/vented seats, heated wheel |
 | ![](docs/screenshots/settings.png) **Settings** — Display, Units, Voice, Clock, Safety & Driving Assistance, Lights… (15 menus) | ![](docs/screenshots/apps.png) **Apps** — app grid, drag icons to the menu bar |
