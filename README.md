@@ -1,4 +1,4 @@
-# Uconnect 8.4AN emulator
+# this is a beta testing branch, dont expect anything polished !
 
 the **stock** Uconnect 8.4AN touchscreen software (RA4 17.43.01, MY15 NAFTA — Dodge/Chrysler/Jeep/Ram 2015-2017)
 running on a windows PC, straight out of the official USB update files. No head unit needed.
