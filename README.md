@@ -9,21 +9,20 @@ running on a Windows PC, straight out of the official USB update files. No head 
 
 Runs at **1024x768** (the 640x480 HMI scaled 1.6x).
 
+### screenshots & previews
+
 | | |
 |---|---|
-| ![](docs/screenshots/am.gif) ![](docs/screenshots/fm.gif) **Radio** — AM/FM, station names, presets, seek, direct tune | ![](docs/screenshots/sxm.gif) **SiriusXM** — channels, cats., artist/song, presets, T/W |
-| ![](docs/screenshots/media.gif) **Media** — **plays your real music folder** with tags, progress, seek, skip, repeat
-| ![](docs/screenshots/phone.png) **Phone** — paired "Pixel 8", favorites, incoming calls ringing with the car's own ringtone | ![](docs/screenshots/phonebook.png) **Phonebook** — 22 contacts, favorites |
-| ![](docs/screenshots/climate.png) **Climate** — temp (LO/60-90/HI), fan 0-7, A/C, MAX A/C, recirc, AUTO, defrost, modes | ![](docs/screenshots/controls.png) **Controls** — heated/vented seats, heated wheel |
-| ![](docs/screenshots/settings.png) **Settings** — Display, Units, Voice, Clock, Safety & Driving Assistance, Lights… (15 menus) | ![](docs/screenshots/apps.png) **Apps** — app grid, drag icons to the menu bar |
-| ![](docs/screenshots/nav.png) **Nav menus** — Where To / View Map / Information / Emergency (no map drawing) | ![](docs/screenshots/themes.png) **Themes** — the car's own theme list (here the SRT set on a Hellcat) |
-| ![](docs/screenshots/drive-modes.png) **SRT Drive Modes** — Default/Sport/Track/Custom, Valet, red/black key | ![](docs/screenshots/drive-modes-custom.png) **Custom Mode Set-Up** — power, transmission, paddles, traction, suspension, steering |
-| ![](docs/screenshots/launch-control.png) **Launch Control / Race Options** — launch RPM, the car's own dial | ![](docs/screenshots/drive-modes-jeep.png) **Grand Cherokee SRT** — Selec-Track modes (here Snow) |
-| ![](docs/screenshots/performance-control.png) **Performance Control** — R/T and Scat Pack: Default/Sport Set-Up | ![](docs/screenshots/language.png) **Languages** — the market's language list, switches live |
-| ![](docs/screenshots/perf-home.png) **Performance Pages** — Home (car pictures per model) | ![](docs/screenshots/perf-timers.png) **Timers** — 0-60, 1/8, 1/4 mile, braking; Current/Last/Best |
-| ![](docs/screenshots/perf-gauges1.png) **Gauges 1** — coolant, oil temp/pressure, battery, trans temp | ![](docs/screenshots/perf-gauges2.png) **Gauges 2** — Hellcat boost, air/fuel, intercooler, intake air |
-| ![](docs/screenshots/perf-gforce.png) **G-Force** — the car leans with lateral g, peaks | ![](docs/screenshots/perf-engine.png) **Engine** — speed, horsepower, torque, boost/oil pressure, gear |
-| ![](docs/screenshots/perf-viper.png) **Viper** — its own SRT Performance Pages app (with Options) | |
+| ![](docs/screenshots/am.gif) ![](docs/screenshots/fm.gif) **radio** — uses dummy am/fm radio info, change it urself if u so please | ![](docs/screenshots/sxm.gif) **siriusxm** — working dummy channel data, later update will pull real song data |
+| ![](docs/screenshots/media.gif) **media** — usb bt and aux all pull from same source, ur user music folder. working metadata other than album art | ![](docs/screenshots/trvllnk.gif) **travel link** — half-working travel data, will fix in later update |
+| ![](docs/screenshots/phone.gif) **phone** — you can pair ur own phone ! | ![](docs/screenshots/book.gif) **phonebook** — contact list, recents, favorites |
+| ![](docs/screenshots/climate.gif) **climate** — dual-zone temp controls, fan speed, auto, modes,ect shi | ![](docs/screenshots/controls.gif) **controls** — heated/vented seats, heated steering wheel |
+| ![](docs/screenshots/set.gif) **settings** — config ur emulator however u want | ![](docs/screenshots/nav.gif) **navigation** — where to, view map, info, emergency menus, map not working atm |
+| ![](docs/screenshots/drvmds.gif) **srt drive modes** — street, sport, track, and use custom for whatever you want | ![](docs/screenshots/drvinfo.gif) **drive mode info** — details on transmission, steering, suspesnion, ect... |
+| ![](docs/screenshots/drvoverview.gif) **powertrain overview** — overview for the modes u have picked | ![](docs/screenshots/rpm.gif) **launch control** — launch rpm setup and activation |
+| ![](docs/screenshots/perfpages.gif) **hellcat perf pages** — live gauges, timers, g-force, engine stats | ![](docs/screenshots/hellcatimages.gif) **hellcat visuals** — model-specific charger hellcat pics, fresh from the uconencts sw |
+| ![](docs/screenshots/300.gif) **chrysler 300** — 300c srt performance pages and vehicle pics | ![](docs/screenshots/wk2drv.gif) **wk2 grand cherokee** — wk2 srt jeep selec-track drive modes |
+| ![](docs/screenshots/wk2pics.gif) **wk2 visuals** — srt grand cherokee pics | |
 
 Also:
 - **Boot splash** — the car's own brand splash images, chosen exactly like the real vp4 `splash.lua` (brand + SRT/SiriusXM/Beats flags).
