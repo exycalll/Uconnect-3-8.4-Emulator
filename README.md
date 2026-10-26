@@ -11,7 +11,7 @@ running on a windows PC, straight out of the official USB update files. No head 
 | ![](docs/screenshots/media.gif) **media** — usb bt and aux all pull from same source, ur user music folder. working metadata other than album art | ![](docs/screenshots/trvllnk.gif) **travel link** — half-working travel data, will fix in later update |
 | ![](docs/screenshots/phone.gif) **phone** — you can pair ur own phone ! | ![](docs/screenshots/book.gif) **phonebook** — contact list, recents, favorites |
 | ![](docs/screenshots/climate.gif) **climate** — dual-zone temp controls, fan speed, auto, modes,ect shi | ![](docs/screenshots/controls.gif) **controls** — heated/vented seats, heated steering wheel |
-| ![](docs/screenshots/set.gif) **settings** — config ur emulator however u want | ![](docs/screenshots/nav.png) **navigation** — fully working using google maps ! |
+| ![](docs/screenshots/set.gif) **settings** — config ur emulator however u want | ![](docs/screenshots/nav23.png) **navigation** — fully working using google maps ! |
 | ![](docs/screenshots/drvmds.gif) **srt drive modes** — street, sport, track, and use custom for whatever you want | ![](docs/screenshots/drvinfo.gif) **drive mode info** — details on transmission, steering, suspesnion, ect... |
 | ![](docs/screenshots/drvoverview.gif) **powertrain overview** — overview for the modes u have picked | ![](docs/screenshots/rpm.gif) **launch control** — launch rpm setup and activation |
 | ![](docs/screenshots/perfpages.gif) **hellcat perf pages** — live gauges, timers, g-force, engine stats | ![](docs/screenshots/hellcatimages.gif) **hellcat visuals** — model-specific charger hellcat pics, fresh from the uconencts sw |
