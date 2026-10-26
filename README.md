@@ -7,7 +7,7 @@ running on a windows PC, straight out of the official USB update files. No head 
 
 | | |
 |---|---|
-| ![](docs/screenshots/am.gif) ![](docs/screenshots/fm.gif) **radio** — uses dummy am/fm radio info, change it urself if u so please | ![](docs/screenshots/sxm.gif) **siriusxm** — working dummy channel data, later update will pull real song data |
+| ![](docs/screenshots/am.gif) ![](docs/screenshots/fm.gif) **radio** — uses dummy am/fm radio info, change it urself if u so please | ![](docs/screenshots/sxm.gif) **siriusxm** — FULLY working live* data streams ! |
 | ![](docs/screenshots/media.gif) **media** — usb bt and aux all pull from same source, ur user music folder. working metadata other than album art | ![](docs/screenshots/trvllnk.gif) **travel link** — half-working travel data, will fix in later update |
 | ![](docs/screenshots/phone.gif) **phone** — you can pair ur own phone ! | ![](docs/screenshots/book.gif) **phonebook** — contact list, recents, favorites |
 | ![](docs/screenshots/climate.gif) **climate** — dual-zone temp controls, fan speed, auto, modes,ect shi | ![](docs/screenshots/controls.gif) **controls** — heated/vented seats, heated steering wheel |
@@ -89,5 +89,6 @@ issue at the moment with the 2018+ ones that ppl are begging for is that they ar
 - `can/` — extracted CAN signal tables (`can_signals.csv`, `can_ids.csv`) and the tools that produced them
 - `docs/screenshots/`
 
+*2-3 min delay with a free api
 Uconnect,Dodge,Ram,Jeep,Chrysler,Harman,Harman/Kardon SiriusXM etc. are trademarks of their owners; the HMI and firmware are © Stellantis / Harman.
 this is an unofficial research project, im js a tool at a pc
