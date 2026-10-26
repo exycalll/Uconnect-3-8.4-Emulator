@@ -90,5 +90,6 @@ issue at the moment with the 2018+ ones that ppl are begging for is that they ar
 - `docs/screenshots/`
 
 *2-3 min delay with a free api
+
 Uconnect,Dodge,Ram,Jeep,Chrysler,Harman,Harman/Kardon SiriusXM etc. are trademarks of their owners; the HMI and firmware are © Stellantis / Harman.
 this is an unofficial research project, im js a tool at a pc
