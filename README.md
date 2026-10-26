@@ -3,12 +3,6 @@
 The **stock** Uconnect 8.4AN touchscreen software (RA4 17.43.01, MY15 NAFTA — Dodge/Chrysler/Jeep/Ram 2015-2017)
 running on a Windows PC, straight out of the official USB update files. No head unit needed.
 
-![Radio](docs/screenshots/radio.png)
-
-## What works
-
-Runs at **1024x768** (the 640x480 HMI scaled 1.6x).
-
 ### screenshots & previews
 
 | | |
