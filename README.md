@@ -25,6 +25,10 @@ also:
 - **hardware panel** in the browser — volume & tune knobs, faceplate keys, climate knobs, gear shift, theme & splash pickers, restart, raw message injector.
 - **CAN signal map** (`can/`) — 261 CAN message IDs / 1,511 signals (byte, bit, mask, PPS object) extracted from the firmware's `canservice`, for 9 vehicle CAN architectures.
 
+### xtra credits!
+@ionknowrntbh- gave the idea to have overlaying google maps for navi !
+
+
 ### new in this update
 
 - **srt drive modes** — fully working drive modes powered by `modules/drivemode.py`. handles hellcat red/black keys (500 / 700+ hp) plus wk2 srt screens and the selec-track dial.
