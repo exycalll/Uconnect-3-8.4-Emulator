@@ -1,3 +1,6 @@
+# you need python 3.12 specifically ! download it from here (https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe) for windows x64. any other systems go to here (https://www.python.org/downloads/release/python-31210/)
+make sure to do it globally !
+
 # Uconnect 8.4AN emulator
 
 the **stock** Uconnect 8.4AN touchscreen software (RA4 17.43.01, MY15 NAFTA — Dodge/Chrysler/Jeep/Ram 2015-2017)
